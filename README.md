@@ -122,7 +122,9 @@ npm run preview
 │   ├── math.ts          # Math helpers
 │   └── defaults.ts      # Default configurations
 ├── public/              # Static assets
-│   └── models/          # 3D models
+│   ├── defaultImg/      # Default images for photo ornaments
+│   ├── models/          # 3D models (GLB files and handpose model)
+│   └── hdri/            # HDRI environment maps
 └── App.tsx              # Main app component
 ```
 
